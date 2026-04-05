@@ -15,6 +15,46 @@
     />
 
     <style>
+      .link-card {
+        background-color: #121212;
+        border: 1px solid #333333;
+        border-radius: 12px;
+        padding: 18px 20px;
+        margin-bottom: 16px;
+        text-decoration: none;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        transition:
+          transform 0.2s ease,
+          background-color 0.2s ease,
+          border-color 0.2s ease;
+      }
+
+      .link-card:hover {
+        transform: scale(1.02);
+        background-color: #222222;
+        border-color: #555555;
+        color: #ffffff;
+      }
+
+      .link-card-content {
+        flex-grow: 1;
+        text-align: center;
+        font-weight: 600;
+      }
+
+      .three-dots {
+        color: #ffffff;
+        opacity: 0.6;
+        font-size: 1.2rem;
+      }
+
+      .spacer {
+        width: 24px;
+      }
+
       body {
         background-color: #000000;
         color: #ffffff;
@@ -30,36 +70,40 @@
       }
 
       .profile-pic {
-            width: 96px;
-            height: 96px;
-            border-radius: 50%;
-            object-fit: cover;
-        }
+        width: 96px;
+        height: 96px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
 
-        .social-icons a {
-            color: #ffffff;
-            font-size: 1.5rem;
-            margin: 0 12px;
-            text-decoration: none;
-            transition: opacity 0.2s;
-        }
-        .social-icons a:hover {
-            opacity: 0.7;
-        }
+      .social-icons a {
+        color: #ffffff;
+        font-size: 1.5rem;
+        margin: 0 12px;
+        text-decoration: none;
+        transition: opacity 0.2s;
+      }
+      .social-icons a:hover {
+        opacity: 0.7;
+      }
     </style>
   </head>
   <body>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pepsi_2023.svg/960px-Pepsi_2023.svg.png?_=20240325134818" alt="DrinkPepsi" class="profile-pic mb-3">
-        <h2 class="fw-bold fs-4 mb-2">DrinkPepsi</h2>
-        <p class="mb-4">Is Pepsi OkAy??? Honey we're thriving</p>
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pepsi_2023.svg/960px-Pepsi_2023.svg.png?_=20240325134818"
+      alt="DrinkPepsi"
+      class="profile-pic mb-3"
+    />
+    <h2 class="fw-bold fs-4 mb-2">DrinkPepsi</h2>
+    <p class="mb-4">Is Pepsi OkAy??? Honey we're thriving</p>
 
-        <div class="social-icons mb-4 d-flex justify-content-center flex-wrap">
-            <a href="#"><i class="bi bi-facebook"></i></a>
-            <a href="#"><i class="bi bi-instagram"></i></a>
-            <a href="#"><i class="bi bi-tiktok"></i></a>
-            <a href="#"><i class="bi bi-youtube"></i></a>
-            <a href="#"><i class="bi bi-twitter-x"></i></a>
-            <a href="#"><i class="bi bi-threads"></i></a>
-        </div>
+    <div class="social-icons mb-4 d-flex justify-content-center flex-wrap">
+      <a href="#"><i class="bi bi-facebook"></i></a>
+      <a href="#"><i class="bi bi-instagram"></i></a>
+      <a href="#"><i class="bi bi-tiktok"></i></a>
+      <a href="#"><i class="bi bi-youtube"></i></a>
+      <a href="#"><i class="bi bi-twitter-x"></i></a>
+      <a href="#"><i class="bi bi-threads"></i></a>
+    </div>
   </body>
 </html>
