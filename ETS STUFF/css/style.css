@@ -27,7 +27,7 @@ html {
 }
 
 body {
-    color: #666666;
+    color: #acd3ac;
     font-size: 14px;
     font-family: 'Sen', sans-serif;
     line-height: 1.80857;
@@ -36,7 +36,7 @@ body {
 }
 
 a {
-    color: #1f1f1f;
+    color: #2f362b;
     text-decoration: none !important;
     outline: none !important;
     -webkit-transition: all .3s ease-in-out;
@@ -58,7 +58,7 @@ h6 {
     padding: 0 0 10px 0;
     font-weight: normal;
     line-height: normal;
-    color: #111111;
+    color: #8ede58;
     margin: 0
 }
 
